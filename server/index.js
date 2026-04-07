@@ -15,13 +15,14 @@ const PORT = process.env.PORT || 5000
 
 const app = express()
 
+const cors = require("cors");
+
 app.use(
-    cors({
-        origin: ["https://task-manager-abhi.netlify.app", "http://localhost:3000", "http://localhost:3001"],
-        methods: ["GET", "POST", "DELETE", "PUT"],
-        credentials: true,
-    })
-)
+  cors({
+    origin: ["http://localhost:3000", "https://teamchecklist-management-system.vercel.app"],
+    credentials: true,
+  })
+);
 
 app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
