@@ -1,79 +1,150 @@
-# TaskZen | Team Collaborative Task Manager ✨
+Collaborative Checklist Management System for Project Teams
+Overview
 
+The Collaborative Checklist Management System is a full-stack web application developed using the MERN Stack (MongoDB, Express.js, React.js, Node.js).
 
-The Cloud-Based Task Manager is a web application designed to streamline team task management. Built using the MERN stack (MongoDB, Express.js, React, and Node.js), this platform provides a user-friendly interface for efficient task assignment, tracking, and collaboration. The application caters to administrators and regular users, offering comprehensive features to enhance productivity and organization.
+The platform helps project teams efficiently manage checklists, assign tasks to members, track completion progress, manage deadlines, and receive notifications for pending tasks.
 
+This system improves team collaboration by providing a centralized environment for task monitoring and workflow management.
 
+----
 
-### Why/Problem?
-In a dynamic work environment, effective task management is crucial for team success. Traditional methods of task tracking through spreadsheets or manual systems can be cumbersome and prone to errors. The Cloud-Based Task Manager aims to address these challenges by providing a centralized platform for task management, enabling seamless collaboration and improved workflow efficiency.
+Problem Statement
 
+In project teams, tracking responsibilities and deadlines can be difficult when tasks are managed manually using spreadsheets or messaging platforms.
 
+This project provides a structured solution where teams can:
 
-### **Background**:
-With the rise of remote work and dispersed teams, there is a growing need for tools that facilitate effective communication and task coordination. The Cloud-Based Task Manager addresses this need by leveraging modern web technologies to create an intuitive and responsive task management solution. The MERN stack ensures scalability, while the integration of Redux Toolkit, Headless UI, and Tailwind CSS enhances user experience and performance.
+Create collaborative checklists
+Assign tasks to specific members
+Track completion status
+Set deadlines
+Receive notifications for pending tasks
 
+----
 
-### 
-## **Admin Features:**
-1. **User Management:**
-    - Create admin accounts.
-    - Add and manage team members.
+Key Features
 
-2. **Task Assignment:**
-    - Assign tasks to individual or multiple users.
-    - Update task details and status.
+User Authentication
 
-3. **Task Properties:**
-    - Label tasks as todo, in progress, or completed.
-    - Assign priority levels (high, medium, normal, low).
-    - Add and manage sub-tasks.
+Secure login system
+Role-based access control
 
-4. **Asset Management:**
-    - Upload task assets, such as images.
+Checklist & Task Management
 
-5. **User Account Control:**
-    - Disable or activate user accounts.
-    - Permanently delete or trash tasks.
+Create project checklists
+Add multiple tasks under each checklist
+Assign tasks to team members
 
+Task Tracking
 
-## **User Features:**
-1. **Task Interaction:**
-    - Change task status (in progress or completed).
-    - View detailed task information.
+Track task status:
+To Do
+In Progress
+Completed
 
-2. **Communication:**
-    - Add comments or chat to task activities.
+Deadline Management
+Assign deadlines to tasks
+Monitor overdue or pending tasks
 
+Notifications
 
-## **General Features:**
-1. **Authentication and Authorization:**
-    - User login with secure authentication.
-    - Role-based access control.
+Users receive notifications for:
+Newly assigned tasks
+Pending tasks
+Approaching deadlines
 
-2. **Profile Management:**
-    - Update user profiles.
+Team Management
 
-3. **Password Management:**
-    - Change passwords securely.
+Add or remove team members
+Assign roles and responsibilities
 
-4. **Dashboard:**
-    - Provide a summary of user activities.
-    - Filter tasks into todo, in progress, or completed.
+Dashboard
 
+Displays:
 
-## **Technologies Used:**
-- **Frontend:**
-    - React (Vite)
-    - Redux Toolkit for State Management
-    - Headless UI
-    - Tailwind CSS
+Total tasks
+Completed tasks
+Tasks in progress
+Pending tasks
 
+----
 
-- **Backend:**
-    - Node.js with Express.js
-    
-- **Database:**
-    - MongoDB for efficient and scalable data storage.
+Technology Stack
 
+Frontend
 
+React.js
+Tailwind CSS
+Redux Toolkit
+Headless UI
+
+Backend
+
+Node.js
+Express.js
+
+Database
+
+MongoDB (MongoDB Atlas)
+
+----
+
+Project Architecture
+client/
+  components/
+  pages/
+  redux/
+
+server/
+  controllers/
+  models/
+  routes/
+  middleware/
+
+----
+
+Installation
+
+Clone the repository
+git clone https://github.com/YOURUSERNAME/teamchecklist-management-system.git
+
+----
+
+Install dependencies
+
+Server:
+cd server
+npm install
+
+Client:
+cd client
+npm install
+
+----
+
+Environment Variables
+
+Server .env
+MONGODB_URI=your_mongodb_connection_string
+JWT_SECRET=your_secret_key
+PORT=8800
+NODE_ENV=development
+
+Client .env
+VITE_APP_BASE_URL=http://localhost:8800
+
+----
+
+Run the Application
+
+Start backend:
+cd server
+npm start
+
+Start frontend:
+cd client
+npm run dev
+
+Application runs at:
+http://localhost:3000

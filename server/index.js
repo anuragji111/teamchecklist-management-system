@@ -15,21 +15,19 @@ const PORT = process.env.PORT || 5000
 
 const app = express()
 
-const cors = require("cors");
-
 app.use(
   cors({
     origin: ["http://localhost:3000", "https://teamchecklist-management-system.vercel.app"],
     credentials: true,
   })
-);
+)
 
 app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
 
 app.use(cookieParser())
-
 app.use(morgan("dev"))
+
 app.use("/api", routes)
 
 app.use(routeNotFound)
