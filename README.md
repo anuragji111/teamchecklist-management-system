@@ -152,8 +152,9 @@ http://localhost:3000
 ----
 ## 📷 Project Screenshots:
 
+1. Log-In.jpg :
+   <img width="1860" height="942" alt="1  Log-In" src="https://github.com/user-attachments/assets/d0931dc6-0b3a-4cc6-92da-035d0e68f2ad" />
 
-Screenshots/1. Log-In.jpg 
 
 Screenshots/2. Dashboard.jpg 
 
