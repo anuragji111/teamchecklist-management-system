@@ -148,3 +148,9 @@ npm run dev
 
 Application runs at:
 http://localhost:3000
+
+----
+## 📷 Project Screenshots:
+
+
+Screenshots/1. Log-In.jpg Screenshots/2. Dashboard.jpg Screenshots/2-i. Dashboard.jpg Screenshots/3. Project Checklist.jpg Screenshots/4. Add Checklist Items.jpg Screenshots/5. List View.jpg Screenshots/6. Completed Tasks.jpg Screenshots/7. In Progress Tasks.jpg Screenshots/8. Project Team Members.jpg Screenshots/9. Add Team Members.jpg Screenshots/10. Deleted Checklists.jpg Screenshots/11. Notifications and alerts.jpg Screenshots/12. Profile Update.jpg Screenshots/13. Change Password feature.jpg Screenshots/14. Mongodb Data Collections.jpg Screenshots/15. Frontend-code-1.jpg Screenshots/15. Frontend-code-2.jpg Screenshots/16. Backend-code-1.jpg Screenshots/17. Combined-frontend-backend-code-1.jpg Screenshots/18-i. Render-backend-deploy-hosting.jpg Screenshots/18-ii. Render-backend-deploy-hosting.jpg Screenshots/19-i. Vercel-frontend-deploy-hosting.jpg Screenshots/19-ii. Vercel-frontend-deploy-hosting.jpg Screenshots/20-i-github.jpg Screenshots/20-ii-github.jpg
