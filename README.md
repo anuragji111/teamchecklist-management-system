@@ -264,4 +264,6 @@ http://localhost:3000
 ## 📷 PPT Technology Stack:
  <img width="696" height="594" alt="Technology Stack" src="https://github.com/user-attachments/assets/ed78075f-a7ad-4dd7-97be-08f531af92bd" />
 
+
+
  Thank you.
