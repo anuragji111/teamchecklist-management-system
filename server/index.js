@@ -17,7 +17,7 @@ const app = express()
 
 app.use(
   cors({
-    origin: ["http://localhost:3000", "https://teamchecklist-management-system.vercel.app"],
+    origin: ["http://localhost:3000", "https://teamchecklist-management-system.vercel.app", "https://teamchecklist-api.onrender.com"],
     credentials: true,
   })
 )
